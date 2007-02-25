@@ -2,8 +2,8 @@
 %define		_fver	%(echo %{version} | tr -d .)
 Summary:	Mostly Crystal is a theme for Thunderbird
 Name:		mozilla-thunderbird-theme-mostlycrystal
-Version:	1.5
-Release:	0.3
+Version:	1.5.0.23
+Release:	0.1
 License:	?
 Group:		Themes
 Source0:	http://www.tom-cat.com/mozilla/downloads/mostlycrystal_tb_15.jar
