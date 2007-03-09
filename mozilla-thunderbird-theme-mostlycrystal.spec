@@ -1,6 +1,7 @@
 %define		_realname	mostlycrystal
 %define		_fver	%(echo %{version} | tr -d .)
-Summary:	Mostly Crystal is a theme for Thunderbird
+Summary:	Mostly Crystal - a theme for Thunderbird
+Summary(pl.UTF-8):	Motyw Mostly Crystal dla Thunderbirda
 Name:		mozilla-thunderbird-theme-mostlycrystal
 Version:	1.5.0.23
 Release:	0.1
@@ -22,6 +23,12 @@ Mostly Crystal is a theme for Thunderbird 1.5 "mostly" from the
 colorful Crystal SVG (for Linux) icon set designed by Everaldo and
 includes icons in their original form plus custom-edited composites of
 the originals.
+
+%description -l pl.UTF-8
+Mostly Crystal to motyw dla Thunderbirda 1.5 "prawie" z kolorowego
+zestawu ikon Crystal SVG (dla Linuksa) zaprojektowanego przez
+Everaldo, zawierający ikony w oryginalnej postaci oraz dodane
+zmodyfikowane złożenia oryginałów.
 
 %prep
 %setup -qc
